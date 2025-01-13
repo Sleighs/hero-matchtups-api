@@ -35,7 +35,7 @@ const connectionParams = {
   useUnifiedTopology: true 
 };
 
-mongoose.set('strictQuery', false);
+mongoose.set('strictQuery', false); 
 mongoose
 	.connect(process.env.API_ADMIN_URI, connectionParams)
 	.then(() => {
