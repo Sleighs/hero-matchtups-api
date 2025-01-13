@@ -70,13 +70,28 @@ const heroData = [
     name: "Hazard",
     type: "tank",
     counters: {
-      
+      Ana: "-",
+      Ashe: "-",
+      Bastion: "-",
+      Cassidy: "-",
+      //Dva: "-",
+      Echo: "-",
+      Genji: "+",
+      Mauga: "-",
+      Orisa: "-",
+      Roadhog: "-",
+      Pharah: "-",
+      Sigma: "+*",
+      //Sombra: "-",
+      //Widomaker:"-",
+      WreckingBall: "+",
+      Zenyatta: "-*",
     }, 
     archetype: ["Damage Heavy"],
     difficulty: 0,
     skill: 0,
     health: 425,
-    armor: 0,
+    armor: 225,
     shields: 0,
   },
   {
@@ -720,6 +735,7 @@ const heroData = [
     name: "Venture",
     type: "damage",
     counters: {
+      Baptiste: "+",
       Brigitte: "+",  
       Echo: "--", // new
       Genji: "+", // new
@@ -729,8 +745,8 @@ const heroData = [
       Pharah: "--", 
       Sigma: "-*", // new
       //Sombra: "-*",
-      Torbjorn: "-", // new
-      Widowmaker: "-*", // new
+      Torbjorn: "-", 
+      //Widowmaker: "-*", 
       Zenyatta: "+", 
     },
     archetype: ["Specialist"],
@@ -872,8 +888,12 @@ const heroData = [
     name: "June",
     type: "support",
     counters: {
-      //Pharah: "+",
-      //Echo: "+",
+      Pharah: "+",
+      Echo: "+",
+      ashe: "-",
+      Dva: "--*",
+      Tracer: "-*",
+      Winston: "-",
     },
     archetype: ["Utility"],
     difficulty: 0,
