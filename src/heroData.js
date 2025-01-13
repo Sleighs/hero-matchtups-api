@@ -67,6 +67,19 @@ const heroData = [
     shields: 0,
   },
   {
+    name: "Hazard",
+    type: "tank",
+    counters: {
+      
+    }, 
+    archetype: ["Damage Heavy"],
+    difficulty: 0,
+    skill: 0,
+    health: 425,
+    armor: 0,
+    shields: 0,
+  },
+  {
     name: "Junker Queen",
     type: "tank",
     counters: {
@@ -847,6 +860,20 @@ const heroData = [
       Pharah: "+",
       Sombra: "-",
       Venture: "-",
+    },
+    archetype: ["Utility"],
+    difficulty: 0,
+    skill: 0,
+    health: 250,
+    armor: 0,
+    shields: 0,
+  },
+  {
+    name: "June",
+    type: "support",
+    counters: {
+      //Pharah: "+",
+      //Echo: "+",
     },
     archetype: ["Utility"],
     difficulty: 0,
