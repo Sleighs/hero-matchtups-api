@@ -117,7 +117,7 @@ adminRouter.post("/addHero/:heroName", async (req, res) => {
 
 	try {
 		await Hero.create(heroArr[0])
-    res.status(201).send({message: "Hero added!"})
+    res.status(201).send({message: "Hero added!", heroData: heroArr[0]})
 	} catch {
 		res.status(404)
 		res.send({ error: "Post request error!" })

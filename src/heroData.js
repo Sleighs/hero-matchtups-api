@@ -900,9 +900,9 @@ const heroData = [
     archetype: ["Utility"],
     difficulty: 0,
     skill: 0,
-    health: 250,
+    health: 75,
     armor: 0,
-    shields: 0,
+    shields: 150,
   },
   {
     name: "Kiriko",
