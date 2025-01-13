@@ -885,7 +885,7 @@ const heroData = [
     shields: 0,
   },
   {
-    name: "June",
+    name: "Juno",
     type: "support",
     counters: {
       Pharah: "+",
